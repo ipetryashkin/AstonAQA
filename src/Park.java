@@ -16,9 +16,9 @@ public class Park {
         int price;
 
         public Attraction(String _attraction, String _working_hours, int _price) {
-            this.attraction = _attraction;
-            this.working_hours = _working_hours;
-            this.price = _price;
+            attraction = _attraction;
+            working_hours = _working_hours;
+            price = _price;
         }
 
         public void info() {

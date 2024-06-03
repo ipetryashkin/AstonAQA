@@ -7,12 +7,12 @@ public class Person {
     int age;
 
     public Person(String _name, String _position, String _email, String _phone, int _salary, int _age) {
-        this.name = _name;
-        this.position = _position;
-        this.email = _email;
-        this.phone = _phone;
-        this.salary = _salary;
-        this.age = _age;
+        name = _name;
+        position = _position;
+        email = _email;
+        phone = _phone;
+        salary = _salary;
+        age = _age;
     }
 
     public void info() {
