@@ -7,12 +7,12 @@ public class Employee {
     int age;
 
     public Employee(String _name, String _position, String _email, String _phone, int _salary, int _age) {
-       name = _name;
-       position = _position;
-       email = _email;
-       phone = _phone;
-       salary = _salary;
-       age = _age;
+        name = _name;
+        position = _position;
+        email = _email;
+        phone = _phone;
+        salary = _salary;
+        age = _age;
     }
 
     public void info() {
