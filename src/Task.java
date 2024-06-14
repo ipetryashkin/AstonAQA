@@ -1,6 +1,6 @@
 public class Task {
-    public static void main {
+    public static void main () {
         Cat murka = new Cat ();
-        murka.run (500);
+        murka.run(500);
     }
 }
