@@ -6,10 +6,10 @@ public class Main {
     }
     public static void phoneDictionaryExample() {
         PhoneDictionary phoneDictionary = new PhoneDictionary();
-        phoneDictionary.add("Петров", "+71111119007");
-        phoneDictionary.add("Петров", "+71111119007");
+        phoneDictionary.add("Петров", "+71111112233");
+        phoneDictionary.add("Петров", "+71111112233");
+        phoneDictionary.add("Иванов", "+71111110000");
         phoneDictionary.add("Иванов", "+71111119001");
-        phoneDictionary.add("Иванов", "+71111119000");
 
         String[] tests = {"Петров", "Иванов", "Сидоров" };
         for (String familyName : tests) {
